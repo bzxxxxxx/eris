@@ -1,0 +1,43 @@
+# Node modules and build artifacts for React frontend
+/frontend/node_modules
+/frontend/build
+
+# Python virtual environment
+/backend/env
+
+# Django files
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/__pycache__/
+backend/*.sqlite3
+backend/db.sqlite3
+
+# Django migrations
+/backend/myapp/migrations/
+backend/myapp/__pycache__/
+backend/myproject/__pycache__/
+
+# Static files and media
+/backend/static/
+backend/media/
+
+# Environment variable files
+/backend/.env
+/frontend/.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
